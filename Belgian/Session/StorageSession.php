@@ -148,7 +148,7 @@ class StorageSession
 
     private function hasStart()
     {
-        return ( !empty(self::getId()) );
+        return (self::getId() !== '');
     } 
     
 
